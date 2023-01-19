@@ -190,13 +190,13 @@ section {
 }
 .header-content .left-header .image img:hover {
   filter: grayscale(0%);
-  box-shadow: -5px 5px 2px 2px rgba(0, 0, 0, 0.7);
+  box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.7);
 }
 .header-content .right-header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 18rem;
+  padding-right: 15rem;
 }
 .header-content .right-header .name {
   font-size: 3rem;
