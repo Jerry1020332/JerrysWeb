@@ -6,8 +6,8 @@
 }
 
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-primary: #1e1e1e;
+  --color-secondary: #FFC239;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #F56692;
+  --color-secondary: #FFC239;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -168,25 +168,29 @@ section {
   left: 0;
   top: 0;
   z-index: -1;
-  clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 9% 100%, 0% 100%);
 }
 .header-content .left-header .image {
-  border-radius: var(--br-sm-2);
-  height: 90%;
-  width: 68%;
-  margin-left: 4rem;
-  background-color: var(--color-black);
+  /* border-radius: var(--br-sm-2); */
+  height: 60%;
+  width: 60%;
+  margin-left: 10rem;
+  background-color: #1e1e1e;
+  border-radius: 30px;
   transition: all 0.4s ease-in-out;
 }
 .header-content .left-header .image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 30px;
+  box-shadow: -2px 2px 2px 2px rgba(0, 0, 0, 0.2);
   transition: all 0.4s ease-in-out;
   filter: grayscale(100%);
 }
 .header-content .left-header .image img:hover {
-  filter: grayscale(0);
+  filter: grayscale(0%);
+  box-shadow: -5px 5px 2px 2px rgba(0, 0, 0, 0.4);
 }
 .header-content .right-header {
   display: flex;
